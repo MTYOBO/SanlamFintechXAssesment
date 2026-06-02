@@ -1,3 +1,12 @@
+# Approach
+- Attempt for the code based to be as production ready as possible.
+- Breakdown received code snipppet by applying SOLID principles for enterprise software for the purpose of maintanability and all other properties that confirm to SOLID principles.
+- Breakdown received code snippet into its compartments {controller, config, repository,event,publish} to ensure single responsibility and code implemented in the correct package.
+- In-memory DB used for testing the withdrawal functionality.
+- LocalStack used to create a basic sns topic to publish the result of the transaction.
+- Setup of this Springboot project is done and tested locally.
+- Postman is used to test post calls on the endpoint /bank/withdraw
+
 # Bank Withdrawal Service
 
 A Spring Boot service for handling bank account withdrawals with an in-memory H2 database and AWS SNS event publication.
