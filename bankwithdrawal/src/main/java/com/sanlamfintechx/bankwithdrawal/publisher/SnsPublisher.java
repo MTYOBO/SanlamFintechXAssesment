@@ -3,7 +3,6 @@ package com.sanlamfintechx.bankwithdrawal.publisher;
 import com.sanlamfintechx.bankwithdrawal.config.AwsConfig;
 import com.sanlamfintechx.bankwithdrawal.event.WithdrawalEvent;
 import org.springframework.stereotype.Component;
-import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.sns.SnsClient;
 import software.amazon.awssdk.services.sns.model.PublishRequest;
 import software.amazon.awssdk.services.sns.model.PublishResponse;
